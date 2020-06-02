@@ -14,4 +14,4 @@ app.use('/lib', express.static(path.join(__dirname, 'node_modules')))
 
 app.use(express.urlencoded({extended:false}))
 
-app.use('/', require('./Routers/get_landing_page'))
+app.use('/', require('./routers/get_landing_page'))
