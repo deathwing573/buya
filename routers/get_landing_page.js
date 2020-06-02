@@ -6,7 +6,7 @@ router.get('/', (req, res) => {
 
     
 
-    res.render('content.ejs');
+    res.render('index.ejs');
 
     
 });
