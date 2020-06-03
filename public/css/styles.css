@@ -15,4 +15,11 @@ body div nav
 
 html { margin-bottom: 200px }
 
+.navbar div img {
+  display:block;
+  margin: 0px auto;
+}
+
+
+
 
